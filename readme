@@ -1,0 +1,9 @@
+Web scraping is the automated process of extracting information from websites. It involves using a program or script to navigate through web pages, retrieve relevant data, and organize it for further analysis. However, it's essential to be mindful of legal and ethical considerations when scraping websites to ensure compliance with terms of service and copyright laws.
+
+Page Loading is the initial phase where the browser begins fetching the HTML content of the webpage.
+
+As the HTML content is retrieved, the browser's HTML parser starts analyzing the markup. It creates a Document Object Model (DOM) tree, representing the structure of the page.
+
+DOMContentLoaded event is triggered when the HTML parsing is complete, and the browser has constructed the initial DOM tree. At this point, the HTML, CSS, and JavaScript have been loaded and parsed, but external resources like images might still be loading.
+
+Beautiful Soup is like a friendly guide for Python that helps us make sense of web pages. Imagine a webpage as a messy book – Beautiful Soup tidies it up so we can easily find information. We install it, create a 'soup' with the webpage, and then use its tools to grab the data we need, like finding paragraphs or links. It's like having a neat and organized way to read and understand the content of a webpage with Python.
